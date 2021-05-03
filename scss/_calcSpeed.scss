@@ -1,0 +1,43 @@
+
+
+.calcbreack {
+  padding: 20px 20px;
+  border: 1px inset rgb(184, 183, 183);
+  text-align: center;
+  background: url(/img/put_tormoz-min.jpeg) no-repeat;
+  background-size: cover;
+  .input {
+    width: 90%;
+    height: 25px;
+    border: 1px solid #000;
+    margin: 0 auto 15px;
+    border-radius: 15px;
+    background-color: #fff;
+  }
+  .lable {
+    margin-bottom: 10px;
+  }
+  .btn {
+    padding: 5px 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .animateCar{
+    display: block;
+    width: 40px;
+    // animation: 3s forwards cubic-bezier(0, 0.79, 0.32, 1.01) 0s  alternate move_eye;
+    
+  }
+}
+
+@keyframes move_eye { 
+  0% { 
+  } 
+  30% {
+    transform: rotate(5deg);
+  }
+  100% {
+     margin-left:70%; 
+    } 
+}

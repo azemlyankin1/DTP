@@ -1,0 +1,159 @@
+@import "_varyables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  // font-size: ;
+}
+a:hover {
+  text-decoration: underline !important;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(231, 231, 230, 0.623);
+
+  width: 414px;
+  
+}
+
+.container {
+  padding: 0 29px;
+
+}
+
+nav{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  
+  .nav__icon {
+    position: relative;
+    cursor: pointer;
+    
+    .nav__sub{
+      display: block;
+      position: absolute;
+      background-color: #000;
+      z-index: 1000;
+      left: 2rem;
+      width: 90%;
+      padding: 20px;
+      font-size: 1rem;
+      
+      li {
+        margin-bottom: 8px;
+        margin-left: 10px;
+        
+        a {
+          text-decoration: none;
+          padding-left: 25px;
+          color: #fff;
+          background: url(/img/warning.png) no-repeat;
+          background-size: contain;
+          background-position: left center;
+          
+        }
+      }
+    }
+    span{
+      display: block;
+      width: 35px;
+      height: 4px;
+      background-color: #000;
+      margin-bottom: 5px;
+      transition: .5s;
+    }
+  }
+  .cross {
+    span {
+      margin: -4px;
+    }  
+    span:first-child{
+      margin-top: 30px;
+      transform: rotate(-43deg);
+    }
+    span {
+      transform: rotate(43deg);
+    }
+  }
+}
+
+section {
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 215px;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  
+  h2 {
+    color: white;
+    margin-top: 2.9rem;
+    margin-left: .8rem;
+    font-size: .9rem;
+  }
+  img{
+    margin: 50px 5px 40px 0;
+  }
+}
+.calc {
+  background: url(/img/maxresdefault.png) no-repeat;
+ 
+  .subSection{
+    display: none;
+    flex: none;
+    position: absolute;
+    top: 50px;
+    padding: 30px 18px;
+    background-color: #696666;
+    list-style: none;
+    border-radius: 15px;
+    
+    
+    a{
+      color: white;
+      text-decoration: none;
+      font-size: .9rem;
+      display: block; 
+      min-width: 300px;
+      
+    }
+    li{
+      margin-bottom: 10px;
+      padding-left: 20px;
+      background: url(/img/calculator.png) no-repeat ;
+      background-size: 5%;
+      background-position: left center;
+     
+    }
+  }
+}
+.firstMove {
+  background: url(/img/road.png) no-repeat;
+  h2 {
+    margin-top: 5rem;
+  }
+}
+.info {
+  background: url(/img/road11.png) no-repeat;
+}
+
+footer {
+  font-size: .6rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 10px 0;
+  span{
+    display: block;
+  }
+  span:first-child{
+    text-decoration: underline;
+  }
+}
+
+@import "calcSpeed";
