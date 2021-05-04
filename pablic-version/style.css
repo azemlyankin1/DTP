@@ -57,7 +57,7 @@ nav .nav__icon .nav__sub li a {
   text-decoration: none;
   padding-left: 25px;
   color: #fff;
-  background: url(/img/warning.png) no-repeat;
+  background: url(warning.png) no-repeat;
   background-size: contain;
   background-position: left center;
 }
@@ -102,7 +102,7 @@ section img {
 }
 
 .calc {
-  background: url(/img/maxresdefault.png) no-repeat;
+  background: url(maxresdefault.png) no-repeat;
 }
 .calc .subSection {
   display: none;
@@ -124,13 +124,13 @@ section img {
 .calc .subSection li {
   margin-bottom: 10px;
   padding-left: 20px;
-  background: url(/img/calculator.png) no-repeat;
+  background: url(calculator.png) no-repeat;
   background-size: 5%;
   background-position: left center;
 }
 
 .firstMove {
-  background: url(/img/road.png) no-repeat;
+  background: url(road.png) no-repeat;
 }
 .firstMove h2 {
   margin-top: 5rem;
@@ -144,7 +144,7 @@ section img {
 }
 
 .info {
-  background: url(/img/road11.png) no-repeat;
+  background: url(road11.png) no-repeat;
 }
 
 footer {
@@ -164,7 +164,7 @@ footer span:first-child {
   padding: 20px 20px;
   border: 1px inset #b8b7b7;
   text-align: center;
-  background: url(/img/put_tormoz-min.jpeg) no-repeat;
+  background: url(put_tormoz-min.jpeg) no-repeat;
   background-size: cover;
 }
 .calcbreack .input {
